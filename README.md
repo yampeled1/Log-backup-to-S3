@@ -1,6 +1,6 @@
 # Log backup to s3
 
-A script desinged to compress and backup logs to AWS S3
+A script designed to compress and backup logs to AWS S3
 
 ## Perequisites
 
