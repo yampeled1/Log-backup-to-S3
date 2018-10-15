@@ -4,9 +4,9 @@ A script designed to compress and backup logs to AWS S3
 
 ## Perequisites
 
-AWS user
-s3cmd repo is required for this script
-s3cmd credentials configured to the terminal
+- AWS user 
+- s3cmd repo installed
+- s3cmd credentials configured to the terminal
 
 ### Output example
 
