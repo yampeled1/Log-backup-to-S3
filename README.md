@@ -13,12 +13,19 @@ The build runs only on scripts located in the current directory
 A short example of an output
 
 ```
-$ sh logs_backups3.sh 
 Please write the path/file of the logs you would like to compress and backup
 /home/yam/exmpl
 tar: Removing leading `/' from member names
-upload: '/home/yam/exmpl.2018-10-15_14:37.tar' -> 's3://yams-bucket-exp/exmpl.2018-10-15_14:37.tar'  [1 of 1]
- 327680 of 327680   100% in    4s    72.87 kB/s  done
+
+2018-10-15 11:54  s3://exmpl-bucket2
+2018-10-15 11:55  s3://exmpl-bucket3
+2018-10-10 09:27  s3://yams-bucket-exp
+
+Please select to which bucket you would like to push the files (name only)
+exmpl-bucket2
+upload: '/home/yam/exmpl.2018-10-15_14:59.tar' -> 's3://exmpl-bucket2/exmpl.2018-10-15_14:59.tar'  [1 of 1]
+ 327680 of 327680   100% in    4s    78.01 kB/s  done
+
 ```
 
 ## Built With
